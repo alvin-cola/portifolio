@@ -1,0 +1,154 @@
+section[class^="container"] {
+    padding: 4rem 2rem;
+}
+
+@media screen and (max-widith:1024px) {
+    section[class^="container"] {
+        padding: 4rem;
+    }
+
+}
+
+section:not(first-of-type) {
+    text-align: center;
+}
+
+section:nth-child(2n) {
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: aquamarine;
+    border: 2px solid blueviolet;
+    border-radius: 1rem;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+
+}
+
+section.hero {
+    background-color: rgb(197, 214, 230);
+    padding-top: 75px;
+}
+
+.navbar {
+    background-color: azure;
+}
+
+@media screen and (max-width:600px) {
+    section.hero {
+        text-align: center;
+        padding-top: 85px;
+    }
+
+    section.hero img {
+        max-width: 70%;
+    }
+}
+
+/*services*/
+section.services i {
+    font-size: 2rem;
+    margin: 1rem auto;
+    border: 2px solid #2d3641;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+section .card {
+    border: 4px solid #2d3641;
+    box-shadow: 4px 4px #2d3641;
+    max-width: 22rem;
+    margin-inline: auto;
+
+}
+
+/*About*/
+@media screen and (min-width:1024px) {
+
+    section.about .container,
+    section.testmonials .container {
+        margin-top: 30px;
+        width: 60%;
+    }
+}
+
+/*projects*/
+section.projects .card {
+    max-width: 17rem;
+    text-align: left;
+}
+
+section.projects .card img {
+    max-width: 70%;
+    margin: 1rem auto;
+    border-radius: 50%;
+}
+
+/*Testmonials*/
+section.testmonials .carousel-control-prev,
+.carousel-control-next {
+    max-width: 3%;
+}
+
+section.testmonials .carousel-item p {
+    max-width: 80%;
+    margin: 0 auto;
+    border-left: 0.5rem solid chocolate;
+    padding-left: 1rem;
+}
+
+section.testmonials .carousel-item img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    width: 10%;
+    height: 10%;
+    margin-left: 5rem;
+    border-radius: 50%;
+}
+
+/*Contact*/
+
+section.contact-me .social-media a {
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    padding: 2rem;
+}
